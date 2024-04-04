@@ -634,3 +634,156 @@ setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true);
 // Tcl Message: git add --all 
 // bv (ch):  Tcl Command Line : addNotify
 dismissDialog("Tcl Command Line"); // bv (ch)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid15704.str', LF will be replaced by CRLF the next time Git touches it 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,613 MB. GUI used memory: 83 MB. Current time: 4/3/24 11:14:30 PM PDT
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add --all", true); // az (Y, ch)
+// Tcl Command: 'git add --all'
+// Tcl Command: 'git add --all'
+// Tcl Message: git add --all 
+// Tcl Message: warning: in the working copy of 'vivado.jou', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado.log', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'vivado_pid15704.str', LF will be replaced by CRLF the next time Git touches it 
+// Tcl Command: 'rdi::match_options {git} {}'
+// Elapsed time: 25 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git commit -m \"program counter\"", true); // az (Y, ch)
+// Tcl Command: 'git commit -m "program counter"'
+// Tcl Command: 'git commit -m "program counter"'
+// Tcl Message: git commit -m "program counter" 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git push", true); // az (Y, ch)
+// Tcl Command: 'git push'
+// Tcl Command: 'git push'
+// Tcl Message: git push 
+// bv (ch):  Tcl Command Line : addNotify
+// Tcl Message: To https://github.com/Dineth-2001/Nano-processor.git    6f26fbd..cbb5065  programCounter -> programCounter 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,613 MB. GUI used memory: 83 MB. Current time: 4/3/24 11:15:09 PM PDT
+dismissDialog("Tcl Command Line"); // bv (ch)
+// Elapsed time: 49 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git"); // az (Y, ch)
+// Elapsed time: 24 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git push origin programCounter", true); // az (Y, ch)
+// Tcl Command: 'git push origin programCounter'
+// Tcl Command: 'git push origin programCounter'
+// Tcl Message: git push origin programCounter 
+// Tcl Message: Everything up-to-date 
+// Elapsed time: 51 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ALU(Behavioral) (ALU.vhd)]", 17, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ALU(Behavioral) (ALU.vhd)]", 17, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ALU(Behavioral) (ALU.vhd)]", 17, false, false, false, false, false, true); // B (D, ch) - Double Click
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+// Elapsed time: 22 seconds
+selectCodeEditor("ALU.vhd", 112, 189); // cd (w, ch)
+selectCodeEditor("ALU.vhd", 112, 189, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("ALU.vhd", 119, 186); // cd (w, ch)
+// Elapsed time: 63 seconds
+selectCodeEditor("ALU.vhd", 704, 110); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RCA_3_sim(Behavioral) (RCA_3_sim.vhd)]", 16, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RCA_3_sim(Behavioral) (RCA_3_sim.vhd)]", 16, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 13 seconds
+selectCodeEditor("RCA_3_sim.vhd", 107, 94); // cd (w, ch)
+typeControlKey((HResource) null, "RCA_3_sim.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("RCA_3_sim.vhd", 334, 92); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 334, 93); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("RCA_3_sim.vhd", 14, 122); // cd (w, ch)
+typeControlKey((HResource) null, "RCA_3_sim.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 0, 244); // cd (w, ch)
+typeControlKey(null, null, 'z');
+// Elapsed time: 134 seconds
+selectCodeEditor("RCA_3_sim.vhd", 15, 110); // cd (w, ch)
+typeControlKey((HResource) null, "RCA_3_sim.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("RCA_3_sim.vhd", 306, 118); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 264, 103); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 251, 89); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 385, 107); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RCA_3_sim(Behavioral) (RCA_3_sim.vhd)]", 16, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top RCA_3_sim [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'RCA_3_sim' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj RCA_3_sim_vhdl.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim/xvhdl.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim/xvhdl.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 61 seconds
+// Elapsed time: 61 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim/xvhdl.log' file for more information.", 0); // b (D, a)
+// TclEventType: DG_GRAPH_GENERATED
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Sem 02/Computer Organization and Degital Design/Nano-processor/Nano-processor.sim/sim_1/behav/xsim/xvhdl.log' file for more information.", 0, false, false, false, true, false); // b (D, a) - Popup Trigger
+selectMenuItem(PAResourceAtoD.CmdMsgDialog_COPY_MESSAGE, "Copy Message"); // ac (ai)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1, false, false, false, true, false); // b (D, a) - Popup Trigger
+selectMenuItem(PAResourceAtoD.CmdMsgDialog_COPY_MESSAGE, "Copy Message"); // ac (ai)
+// Elapsed time: 37 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// Elapsed time: 91 seconds
+selectCodeEditor("RCA_3_sim.vhd", 75, 401); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 77, 417); // cd (w, ch)
+// Elapsed time: 55 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("RCA_3_sim.vhd", 31, 406); // cd (w, ch)
+typeControlKey((HResource) null, "RCA_3_sim.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("RCA_3_sim.vhd", 89, 295); // cd (w, ch)
+// Elapsed time: 24 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("RCA_3_sim.vhd", 106, 302); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 78, 79); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 62, 79); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("RCA_3_sim.vhd", 449, 255); // cd (w, ch)
+// Elapsed time: 295 seconds
+selectCodeEditor("RCA_3_sim.vhd", 33, 401); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 54, 403); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 50, 403); // cd (w, ch)
+selectCodeEditor("RCA_3_sim.vhd", 35, 415); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("RCA_3_sim.vhd", 188, 333); // cd (w, ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // aw
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 56, 146); // dn (ae, ch)
+// Tcl Command: 'rdi::match_options {git} {}'

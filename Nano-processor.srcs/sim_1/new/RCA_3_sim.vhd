@@ -21,16 +21,16 @@ architecture Behavioral of RCA_3_sim is
   
 begin
   UUT: RCA_3 PORT MAP(
-    A0 => A0,
-    A1 => A1,
-    A2 => A2,
-    B0 => B0,
-    B1 => B1,
-    B2 => B2,
+    A(0) => A0,
+    A(1) => A1,
+    A(2) => A2,
+    B(0) => B0,
+    B(1) => B1,
+    B(2) => B2,
     C_in => C_in,
-    S0 => S0,
-    S1 => S1,
-    S2 => S2,
+    S(0) => S0,
+    S(1) => S1,
+    S(2) => S2,
     C_out => C_out
   );
 

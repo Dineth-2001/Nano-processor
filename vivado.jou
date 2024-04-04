@@ -63,3 +63,16 @@ wait_on_run impl_1
 open_run impl_1
 git add --all
 git add --all
+git add --all
+git commit -m "program counter"
+git push
+git push origin programCounter
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RCA_3_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+update_compile_order -fileset sim_1
+git add --all
